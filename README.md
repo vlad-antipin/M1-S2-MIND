@@ -11,4 +11,5 @@ Subjects:
   - RITAL - natural language processing
   - AROB - reinforcement learning and robotics
   - PMIND - project in RL (in a separate repo)
-  - English
+  - CONF - career conferences
+  - ENG
