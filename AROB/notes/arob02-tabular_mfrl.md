@@ -156,14 +156,30 @@ we need Q(s,a) to know which action to take
 
 #todo formulas
 
+Like TD(0), but uses Q value instead and is based on s,a,r,s,a
+
+#todo  in TME, issue of taking action a' slide 51
+
 Problem: we need to know in advance the next action -> on-policy approach
+
 ## Q-learning 
 
-Similar, but do the best next action instead
+Similar, but do the best next action instead, better
 
 NB: slide 53, (1-terminated) to handle the terminal state
 
+x(1-terminated) since need to do update if episode ended not due truncation
 
+# Actor-critic
+
+delta is computed from critic and used to update both critic and actor (update its probab but need to normalize so that proba stays valid)
+Note that learning rate for actor and for critic can be different
+Lr is larger for critic
+
+AC resembles more policy iteration than Sarsa / q-learning
+
+NB: connection btw Q-learning and AC, can represent argmax Q as actor
+Can update actor smartly - change it only if you update Q for this state 
 
 
 

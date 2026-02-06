@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vlad/Documents/University/Master-MIND/M1-S2-MIND/IDLE/tme/tme02/mlruns/666800687902122217/4a926b6d16c74072b2edb40abc663c18/artifacts
+end_time: 1770414585866
+entry_point_name: ''
+experiment_id: '666800687902122217'
+lifecycle_stage: active
+run_id: 4a926b6d16c74072b2edb40abc663c18
+run_name: run_2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770414581161
+status: 3
+tags: []
+user_id: vlad
