@@ -49,7 +49,7 @@ def descente_gradient(datax, datay, f_loss, f_grad,eps,  iter):
     ws = [w]
     losses = [f_loss(w,datax, datay).mean()]
     for _ in range(iter):
-        w = w - eps*f_grad(w, datax, datay)#.mean(-1).reshape(-1, 1)
+        w = w - eps*f_grad(w, datax, datay).mean(-1).reshape(-1, 1)
         ws.append(w)
         losses.append(f_loss(w,datax, datay).mean())
     return w, np.array(ws).reshape(-1,2), np.array(losses)

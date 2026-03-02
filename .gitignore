@@ -1,1 +1,84 @@
 .DS_Store
+
+# =========================
+# Large datasets & data dirs
+# =========================
+data/
+datasets/
+dataset/
+raw/
+processed/
+interim/
+external/
+inputs/
+outputs/
+out/
+artifacts/
+
+# Ignore nested data folders anywhere
+**/data/
+**/datasets/
+**/dataset/
+**/Data/
+**/Datasets/
+**/Dataset/
+# =========================
+# Model checkpoints & weights
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.joblib
+*.pkl
+*.onnx
+*.sav
+
+# =========================
+# Large data file formats
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+*.7z
+
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.dat
+
+# =========================
+# Text corpora (optional!)
+# =========================
+*.txt
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment files
+# =========================
+.env
+.venv/
+venv/
+env/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints
