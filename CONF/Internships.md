@@ -1,0 +1,2 @@
+- very nice:  [https://www.citcom.cnrs.fr/en/medicinal-chemistry-and-translational-research%E2%80%A8-%E2%80%A8-%E2%80%A8/](https://www.citcom.cnrs.fr/en/medicinal-chemistry-and-translational-research%E2%80%A8-%E2%80%A8-%E2%80%A8/) and [https://www.citcom.cnrs.fr/en/192-2/chimie-medicinale-et-recherche-translationnelle/](https://www.citcom.cnrs.fr/en/192-2/chimie-medicinale-et-recherche-translationnelle/)
+ - So so: https://www.minesparis.psl.eu/cbio/en/research/projects/ and https://www.minesparis.psl.eu/cbio/en/join-the-cbio/
