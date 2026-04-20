@@ -1,0 +1,13 @@
+[project]
+name = "deap-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deap>=1.4.3",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pymop>=0.2.4",
+]
