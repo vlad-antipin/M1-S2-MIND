@@ -15,6 +15,13 @@ outputs/
 out/
 artifacts/
 
+terrier_index/
+cord19-index/
+terrier_cord19/
+mvlenssmall/
+mvlenssmall.zip
+ML/tme/tme07/logs/embeddings
+
 # Ignore nested data folders anywhere
 **/data/
 **/datasets/
